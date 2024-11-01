@@ -1,0 +1,149 @@
+% 分布式计算系统基础
+% Dean和Ghemawat提出的MapReduce模型简化了大规模分布式数据处理，是数据并行计算的奠基之作
+@inproceedings{dean2004mapreduce,
+  title={MapReduce: Simplified data processing on large clusters},
+  author={Dean, Jeffrey and Ghemawat, Sanjay},
+  booktitle={Proceedings of Operating Systems Design and Implementation (OSDI)},
+  year={2004}
+}
+
+% Isard等人提出的Dryad系统为分布式数据并行编程提供了新模式，进一步推动了数据流计算的应用
+@inproceedings{isard2007dryad,
+  title={Dryad: distributed data-parallel programs from sequential building blocks},
+  author={Isard, Michael and Budiu, Mihai and Yu, Yuan and Birrell, Andrew and Fetterly, Dennis},
+  booktitle={Proceedings of EuroSys},
+  year={2007}
+}
+
+% Murray等人提出的CIEL系统是一个通用的分布式数据流执行引擎，支持动态生成任务图
+@inproceedings{murray2011ciel,
+  title={CIEL: a universal execution engine for distributed data-flow computing},
+  author={Murray, Derek G. and Schwarzkopf, Malte and Smowton, Chris and Smith, Steven and Madhavapeddy, Anil and Hand, Steven},
+  booktitle={Proceedings of NSDI},
+  year={2011}
+}
+
+% 高级编程语言与编译
+% Olston等人提出的Pig Latin是一种简化数据处理的语言，提升了大规模数据集上的数据分析效率
+@inproceedings{olston2008pig,
+  title={Pig Latin: a not-so-foreign language for data processing},
+  author={Olston, Christopher and Reed, Benjamin and Srivastava, Utkarsh and Kumar, Ravi and Tomkins, Andrew},
+  booktitle={Proceedings of SIGMOD},
+  year={2008}
+}
+
+% Thusoo等人提出的Hive是一个基于MapReduce的数据仓库解决方案，使大规模数据分析更加便捷
+@inproceedings{thusoo2009hive,
+  title={Hive - a warehousing solution over a Map-Reduce framework},
+  author={Thusoo, Ashish and Sarma, Joydeep Sen and Jain, Namit and Shao, Zheng and Chakka, Prasad and Anthony, Suresh and Liu, Hao and Wyckoff, Pete and Murthy, Raghotham},
+  booktitle={Proceedings of VLDB},
+  volume={2},
+  number={2},
+  year={2009}
+}
+
+% Chaiken等人的SCOPE系统是微软的数据平行计算框架，支持并行处理大规模数据集
+@article{chaiken2008scope,
+  title={SCOPE: easy and efficient parallel processing of massive data sets},
+  author={Chaiken, Ronny and Jenkins, Bob and Larson, Per-Åke and Ramsey, Bill and Shakib, Daniel and Weaver, Simon and Zhou, Jingren},
+  journal={Proceedings of VLDB},
+  volume={1},
+  number={2},
+  year={2008}
+}
+
+% 查询优化
+% Selinger等人提出的关系数据库管理系统的访问路径选择，是数据库查询优化的经典之作
+@inproceedings{selinger1979access,
+  title={Access path selection in a relational database management system},
+  author={Selinger, Patricia G. and Astrahan, Morton M. and Chamberlin, Donald D. and Lorie, Raymond A. and Price, Thomas G.},
+  booktitle={Proceedings of SIGMOD},
+  year={1979}
+}
+
+% Simmen等人探讨了查询优化中的顺序优化技术，为数据处理中的排序和分组优化提供了理论基础
+@inproceedings{simmen1996order,
+  title={Fundamental techniques for order optimization},
+  author={Simmen, David E. and Shekita, Eugene J. and Malkemus, Timothy},
+  booktitle={Proceedings of SIGMOD},
+  year={1996}
+}
+
+% Wang和Cherniack的研究提出了在查询处理中避免排序的优化技术，适合大规模数据集处理
+@inproceedings{wang2003avoiding,
+  title={Avoiding ordering and grouping in query processing},
+  author={Wang, Xiaoyong and Cherniack, Mitch},
+  booktitle={Proceedings of VLDB},
+  year={2003}
+}
+
+% UDF分析与优化
+% Jahani等人提出了一种MapReduce程序的自动优化方法，为数据平行处理中的UDF分析提供了新方法
+@article{jahani2011optimization,
+  title={Automatic optimization for MapReduce programs},
+  author={Jahani, Elaheh and Cafarella, Michael J. and Ré, Christopher},
+  journal={Proceedings of VLDB},
+  volume={4},
+  number={6},
+  year={2011}
+}
+
+% Ke等人的研究提出了数据分区优化方法，为数据并行计算中的数据分区策略提供了理论支持
+@inproceedings{ke2011partitioning,
+  title={Optimizing data partitioning for data-parallel computing},
+  author={Ke, Qiang and Prabhakaran, Vijayan and Xie, Yinglian and Yu, Yuan and Wu, Junfeng and Yang, Jun},
+  booktitle={Proceedings of HotOS XIII},
+  year={2011}
+}
+
+% Xia等人的研究探讨了用户定义表处理器的属性推断方法，适用于数据流分析
+@inproceedings{xia2009dataflow,
+  title={Inferring dataflow properties of user defined table processors},
+  author={Xia, Shuo and Fähndrich, Manuel and Logozzo, Francesco},
+  booktitle={Proceedings of SAS},
+  year={2009}
+}
+
+% 数据倾斜处理
+% DeWitt等人提出了并行连接中的数据倾斜处理方法，是大规模数据处理中负载均衡的重要方法
+@inproceedings{dewitt1992skew,
+  title={Practical skew handling in parallel joins},
+  author={DeWitt, David J. and Naughton, Jeffrey F. and Schneider, David A. and Seshadri, S.},
+  booktitle={Proceedings of VLDB},
+  year={1992}
+}
+
+% Ananthanarayanan等人提出的Scarlett系统处理MapReduce集群中的倾斜内容，为负载均衡提供了解决方案
+@inproceedings{ananthanarayanan2011scarlett,
+  title={Scarlett: coping with skewed content popularity in MapReduce clusters},
+  author={Ananthanarayanan, Ganesh and Agarwal, Sameer and Kandula, Srikanth and Greenberg, Albert G. and Stoica, Ion and Harlan, Dinesh and Harris, Eric},
+  booktitle={Proceedings of EuroSys},
+  year={2011}
+}
+
+% 编程语言分析技术
+% Aho、Sethi和Ullman编著的《编译原理》是编译技术领域的经典教材，奠定了编译器优化技术的基础
+@book{aho1986compilers,
+  title={Compilers: Principles, Techniques, and Tools},
+  author={Aho, Alfred V. and Sethi, Ravi and Ullman, Jeffrey D.},
+  publisher={Addison-Wesley},
+  year={1986}
+}
+
+% Allen和Kennedy的书探讨了现代架构优化编译器的依赖方法，为编译器优化技术提供了深入的指导
+@book{allen2001optimizing,
+  title={Optimizing Compilers for Modern Architectures: A Dependence-based Approach},
+  author={Allen, Randy and Kennedy, Ken},
+  publisher={Morgan Kaufmann},
+  year={2001}
+}
+
+% Cousot提出的抽象解释是程序分析中的核心技术，为符号执行等静态分析方法奠定了理论基础
+@article{cousot1996abstract,
+  title={Abstract interpretation},
+  author={Cousot, Patrick},
+  journal={ACM Computing Surveys},
+  volume={28},
+  number={2},
+  year={1996}
+}

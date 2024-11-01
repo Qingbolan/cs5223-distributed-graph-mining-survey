@@ -1,0 +1,109 @@
+% 图计算系统
+% Malewicz等人的Pregel是一个大规模图处理系统，它奠定了“像顶点一样思考”的计算范式基础
+@inproceedings{malewicz2010pregel,
+  title={Pregel: A system for large-scale graph processing},
+  author={Malewicz, Grzegorz and Austern, Matthew H. and Bik, Andrew J.C. and Dehnert, James C. and Horn, Ilan and Leiser, Naty and Czajkowski, Grzegorz},
+  booktitle={Proceedings of the ACM SIGMOD International Conference on Management of Data},
+  year={2010}
+}
+
+% Gonzalez等人的PowerGraph提出了适合自然图的分布式图计算框架，进一步优化了Pregel架构
+@inproceedings{gonzalez2012powergraph,
+  title={PowerGraph: Distributed graph-parallel computation on natural graphs},
+  author={Gonzalez, Joseph E. and Low, Yucheng and Gu, Haijie and Bickson, Danny and Guestrin, Carlos},
+  booktitle={Proceedings of the USENIX Symposium on Operating Systems Design and Implementation},
+  year={2012}
+}
+
+% 图挖掘算法
+% Yan和Han提出的gSpan算法是一种基于图结构的频繁模式挖掘方法，广泛应用于单图频繁子图挖掘
+@inproceedings{yan2002gspan,
+  title={gSpan: Graph-based substructure pattern mining},
+  author={Yan, Xifeng and Han, Jiawei},
+  booktitle={Proceedings of the IEEE International Conference on Data Mining},
+  year={2002}
+}
+
+% Elseidy等人提出的Grami算法在单一大图中进行频繁子图和模式挖掘，适用于大规模图数据分析
+@inproceedings{elseidy2014grami,
+  title={Grami: Frequent subgraph and pattern mining in a single large graph},
+  author={Elseidy, Mina and Abdelhamid, Ehab and Skiadopoulos, Spiros and Kalnis, Panos},
+  booktitle={Proceedings of the VLDB Endowment},
+  year={2014}
+}
+
+% Pržulj的研究展示了使用图子结构分布对生物网络进行比较，这种方法在生物网络分析中具有重要应用
+@article{przulj2007graphlet,
+  title={Biological network comparison using graphlet degree distribution},
+  author={Pržulj, Nataša},
+  journal={Bioinformatics},
+  volume={23},
+  number={2},
+  pages={177--183},
+  year={2007}
+}
+
+% 分布式图挖掘
+% Bhuiyan和Hasan提出了一种基于MapReduce的迭代频繁子图挖掘算法，适合大规模图数据
+@article{bhuiyan2015frequent,
+  title={An iterative MapReduce based frequent subgraph mining algorithm},
+  author={Bhuiyan, Md Ayash and Hasan, Md and Hasan, Mahmudul},
+  journal={IEEE Transactions on Knowledge and Data Engineering},
+  volume={27},
+  number={3},
+  pages={608--620},
+  year={2015}
+}
+
+% Lu等人开发了一种高效的基于MapReduce的频繁子图提取方法，适合处理大规模网络图数据
+@inproceedings{lu2013frequent,
+  title={Efficiently extracting frequent subgraphs using MapReduce},
+  author={Lu, Wei and Chen, Guang and Tung, Anthony K.H. and Zhao, Feng},
+  booktitle={Proceedings of the IEEE International Conference on Big Data},
+  year={2013}
+}
+
+% Zhao等人提出了Sahad系统，利用Hadoop平台进行大规模网络的子图分析
+@inproceedings{zhao2012sahad,
+  title={Sahad: Subgraph analysis in massive networks using Hadoop},
+  author={Zhao, Zhen, Wang, Guodong, Butt, Ali Raza, Khan, Mehdi, Kumar, Vipin A., and Marathe, Madhav V.},
+  booktitle={Proceedings of the IEEE International Parallel and Distributed Processing Symposium},
+  year={2012}
+}
+
+% 图挖掘综述
+% Aggarwal和Wang的专著“Managing and mining graph data”提供了图数据管理和挖掘的全面综述
+@book{aggarwal2010managing,
+  title={Managing and mining graph data},
+  author={Aggarwal, Charu C. and Wang, Haixun},
+  publisher={Springer},
+  year={2010}
+}
+
+% McCune等人总结了顶点中心化框架的演变，为分布式图计算研究提供了全面的理论背景
+@article{mccune2015vertex,
+  title={Thinking like a vertex: A survey of vertex-centric frameworks for large-scale distributed graph processing},
+  author={McCune, Ryan R. and Weninger, Tim and Madey, Gregory},
+  journal={arXiv preprint arXiv:1507.04405},
+  year={2015}
+}
+
+% 系统实现与评估
+% McSherry等人提出了系统性能评估中的成本和可扩展性分析方法，为分布式系统评估提供了重要参考
+@inproceedings{mcsherry2015scalability,
+  title={Scalability! but at what cost?},
+  author={McSherry, Frank and Isard, Michael and Murray, Derek G.},
+  booktitle={Proceedings of the USENIX Workshop on Hot Topics in Operating Systems},
+  year={2015}
+}
+
+% Valiant的BSP模型是分布式计算的重要理论基础，已被广泛应用于并行计算的性能优化
+@article{valiant1990bsp,
+  title={A bridging model for parallel computation},
+  author={Valiant, Leslie G.},
+  journal={Communications of the ACM},
+  volume={33},
+  number={8},
+  pages={103--111},
+  year={1990}
+}

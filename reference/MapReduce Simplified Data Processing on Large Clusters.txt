@@ -1,0 +1,152 @@
+% Hadoop: MapReduce的开源实现，是大规模数据处理的基础平台
+@online{hadoop,
+  title={Hadoop: Open source implementation of MapReduce},
+  url={http://lucene.apache.org/hadoop/}
+}
+
+% Phoenix系统：针对多核环境的MapReduce编程模型实现，适用于单机多核场景
+@online{phoenix,
+  title={The Phoenix system for MapReduce programming},
+  url={http://csl.stanford.edu/~christos/sw/phoenix/}
+}
+
+% Arpaci-Dusseau等人的研究展示了工作站网络上高性能排序的优化方法
+@inproceedings{arpaci1997high,
+  title={High-performance sorting on networks of workstations},
+  author={Arpaci-Dusseau, Andrea C. and Arpaci-Dusseau, Remzi H. and Culler, David E. and Hellerstein, Joseph M. and Patterson, David A.},
+  booktitle={Proceedings of the 1997 ACM SIGMOD International Conference on Management of Data},
+  year={1997},
+  location={Tucson, AZ}
+}
+
+% Barroso等人描述了Google集群架构，是支持全球范围内Web搜索的基础设施
+@article{barroso2003web,
+  title={Web search for a planet: The Google cluster architecture},
+  author={Barroso, Luiz A. and Dean, Jeffrey and Hölzle, Urs},
+  journal={IEEE Micro},
+  volume={23},
+  number={2},
+  pages={22--28},
+  year={2003}
+}
+
+% Bent等人研究了支持批量任务的分布式文件系统，为高效数据管理提供了新思路
+@inproceedings{bent2004explicit,
+  title={Explicit control in a batch-aware distributed file system},
+  author={Bent, John and Thain, Douglas and Arpaci-Dusseau, Andrea C. and Arpaci-Dusseau, Remzi H. and Livny, Miron},
+  booktitle={Proceedings of the 1st USENIX Symposium on Networked Systems Design and Implementation (NSDI)},
+  year={2004}
+}
+
+% Blelloch提出了平行计算中的扫描操作，作为基础并行操作广泛应用于数据处理
+@article{blelloch1989scans,
+  title={Scans as primitive parallel operations},
+  author={Blelloch, Guy E.},
+  journal={IEEE Trans. Comput.},
+  volume={C-38},
+  number={11},
+  year={1989}
+}
+
+% Chu等人将MapReduce模型应用于多核机器上的机器学习任务，为多核系统上并行处理提供参考
+@inproceedings{chu2006mapreduce,
+  title={Map-Reduce for machine learning on multicore},
+  author={Chu, Cheng-Tao and Kim, Sang Kyun and Lin, Yi-An and Yu, Yuan and Bradski, Gary and Ng, Andrew Y. and Olukotun, Kunle},
+  booktitle={Proceedings of Neural Information Processing Systems Conference (NIPS)},
+  year={2006},
+  location={Vancouver, Canada}
+}
+
+% Dean和Ghemawat提出的MapReduce模型简化了分布式数据处理的复杂性，成为云计算的奠基之作
+@inproceedings{dean2004mapreduce,
+  title={MapReduce: Simplified data processing on large clusters},
+  author={Dean, Jeffrey and Ghemawat, Sanjay},
+  booktitle={Proceedings of Operating Systems Design and Implementation (OSDI)},
+  year={2004},
+  location={San Francisco, CA},
+  pages={137--150}
+}
+
+% Fox等人研究了集群架构下的可扩展网络服务设计，展示了分布式服务的设计原则
+@inproceedings{fox1997cluster,
+  title={Cluster-based scalable network services},
+  author={Fox, Armando and Gribble, Steven D. and Chawathe, Yatin and Brewer, Eric A. and Gauthier, Paul},
+  booktitle={Proceedings of the 16th ACM Symposium on Operating System Principles},
+  year={1997},
+  location={Saint-Malo, France},
+  pages={78--91}
+}
+
+% Ghemawat等人设计的Google文件系统（GFS）为大规模数据存储提供了可靠的分布式存储模型
+@inproceedings{ghemawat2003gfs,
+  title={The Google file system},
+  author={Ghemawat, Sanjay and Gobioff, Howard and Leung, Shun-Tak},
+  booktitle={19th Symposium on Operating Systems Principles},
+  year={2003},
+  location={Lake George, NY},
+  pages={29--43}
+}
+
+% Gorlatch的研究展示了扫描操作和其他列表同态的高效并行化方法
+@inproceedings{gorlatch1996efficient,
+  title={Systematic efficient parallelization of scan and other list homomorphisms},
+  author={Gorlatch, Sergei},
+  booktitle={Euro-Par’96. Parallel Processing, Lecture Notes in Computer Science},
+  volume={1124},
+  year={1996},
+  pages={401--408},
+  publisher={Springer-Verlag}
+}
+
+% Gray的排序基准页面展示了各种排序算法在不同平台上的性能评估
+@online{gray_sort,
+  title={Sort benchmark home page},
+  url={http://research.microsoft.com/barc/SortBenchmark/}
+}
+
+% Huston等人提出的Diamond存储架构为交互式搜索提供了早期丢弃机制，提升了存储系统性能
+@inproceedings{huston2004diamond,
+  title={Diamond: A storage architecture for early discard in interactive search},
+  author={Huston, Laima and Sukthankar, Rahul and Wickremesinghe, Ranga and Satyanarayanan, Mahadev and Ganger, Gregory R. and Riedel, Erik and Ailamaki, Anastasia},
+  booktitle={Proceedings of the 2004 USENIX File and Storage Technologies FAST Conference},
+  year={2004}
+}
+
+% Ladner和Fischer的研究提出了并行前缀计算，是并行算法中的经典基础
+@article{ladner1980parallel,
+  title={Parallel prefix computation},
+  author={Ladner, Richard E. and Fischer, Michael J.},
+  journal={Journal of the ACM (JACM)},
+  volume={27},
+  number={4},
+  pages={831--838},
+  year={1980}
+}
+
+% Rabin提出的信息分散算法提供了高效的安全、负载均衡和容错解决方案
+@article{rabin1989dispersal,
+  title={Efficient dispersal of information for security, load balancing and fault tolerance},
+  author={Rabin, Michael O.},
+  journal={Journal of the ACM (JACM)},
+  volume={36},
+  number={2},
+  pages={335--348},
+  year={1989}
+}
+
+% Ranger等人评估了多核和多处理器系统上的MapReduce模型表现，为系统扩展性提供了实验分析
+@inproceedings{ranger2007evaluating,
+  title={Evaluating mapreduce for multi-core and multi-processor systems},
+  author={Ranger, Christopher and Raghuraman, Ramanan and Penmetsa, Arun and Bradski, Gary and Kozyrakis, Christos},
+  booktitle={Proceedings of the 13th International Symposium on High-Performance Computer Architecture (HPCA)},
+  year={2007},
+  location={Phoenix, AZ}
+}
+
+% Riedel等人的研究提出了“大数据”环境下的主动磁盘存储方案，支持大规模数据处理
+@article{riedel_active_disks,
+  title={Active disks for large-scale data processing},
+  author={Riedel, Erik and Faloutsos, Christos and Gibson, Gregory A. and Nagle, David},
+  journal={IEEE Computer},
+  pages={68--74}
+}

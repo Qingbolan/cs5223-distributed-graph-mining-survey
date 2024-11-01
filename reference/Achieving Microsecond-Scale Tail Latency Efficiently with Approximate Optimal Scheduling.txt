@@ -1,0 +1,91 @@
+% 微秒级延迟的重要性
+% Barroso等人提出了“微秒杀手”问题，强调了微秒级延迟对现代数据中心系统的影响
+@article{barroso2017attack,
+  title={Attack of the Killer Microseconds},
+  author={Barroso, Luiz A. and Marty, Milo and Patterson, David A. and Ranganathan, Parthasarathy},
+  journal={Communications of the ACM},
+  year={2017}
+}
+
+% Dean和Barroso的“尾部延迟放大”理论为尾部延迟优化提供了理论支持
+@article{dean2013tail,
+  title={The Tail at Scale},
+  author={Dean, Jeffrey and Barroso, Luiz A.},
+  journal={Communications of the ACM},
+  year={2013}
+}
+
+% 微服务架构
+% Gan等人开发的微服务基准测试套件为研究微服务架构的性能提供了基础
+@inproceedings{gan2019open,
+  title={An Open-Source Benchmark Suite for Microservices and Their Hardware-Software Implications for Cloud \& Edge Systems},
+  author={Gan, Yilong and Zhang, Yao and Cheng, Dan and Shetty, Aditya and Rathi, Pratik and Katarki, Nandan},
+  booktitle={Proceedings of the International Conference on Architectural Support for Programming Languages and Operating Systems},
+  year={2019}
+}
+
+% Netflix的微服务架构经验总结，展示了如何实现高可扩展性和灵活性的架构设计
+@online{netflix_microservices,
+  title={Adopting Microservices at Netflix: Lessons for Architectural Design},
+  author={Mauro, T.},
+  year={2015},
+  url={https://www.nginx.com/blog/microservices-at-netflix-architectural-best-practices}
+}
+
+% 调度系统
+% Kaffes等人提出的Shinjuku调度器，为微秒级尾部延迟优化提供了一种预抢调度策略
+@inproceedings{kaffes2019shinjuku,
+  title={Shinjuku: Preemptive Scheduling for μsecond-scale Tail Latency},
+  author={Kaffes, Kyriakos and Chong, Thibaut and Humphries, James T. and Belay, Abhishek and Mazières, David and Kozyrakis, Christos},
+  booktitle={Proceedings of the Symposium on Networked Systems Design and Implementation},
+  year={2019}
+}
+
+% Demoulin等人提出Perséphone系统，研究如何在高尾负载下优化尾部延迟
+@inproceedings{demoulin2021when,
+  title={When Idling is Ideal: Optimizing Tail-Latency for Heavy-Tailed Datacenter Workloads with Perséphone},
+  author={Demoulin, Hadrien M. and Fried, Jacob and Pedisich, Ivan and Kogias, Manos and Loo, Boon Thau and Phan, L. T. X. and Zhang, Irene},
+  booktitle={Proceedings of the Symposium on Operating Systems Principles},
+  year={2021}
+}
+
+% 硬件演进
+% Karandikar等人设计了一种针对Protocol Buffers的硬件加速器，展示了硬件优化在数据中心的应用潜力
+@inproceedings{karandikar2021accelerator,
+  title={A Hardware Accelerator for Protocol Buffers},
+  author={Karandikar, Shreya and Leary, Connor and Kennelly, Cathal and Zhao, Jintao and Parimi, Divya and Nikolic, Borivoje and Asanovic, Krste and Ranganathan, Parthasarathy},
+  booktitle={Proceedings of the International Symposium on Microarchitecture},
+  year={2021}
+}
+
+% 针对用户空间中断的x86支持文献，展示了在现代数据中心环境中硬件特性的重要性
+@online{x86_user_interrupt,
+  title={x86 Support for User Interrupts},
+  url={https://lwn.net/Articles/869140/},
+  year={2023}
+}
+
+% 工作负载分析
+% Atikoglu等人对大规模键值存储的工作负载分析为后续系统性能优化提供了数据支持
+@inproceedings{atikoglu2012workload,
+  title={Workload Analysis of a Large-Scale Key-Value Store},
+  author={Atikoglu, Berk and Xu, Yue and Frachtenberg, Eitan and Jiang, Song and Paleczny, Mike},
+  booktitle={Proceedings of the ACM SIGMETRICS Conference},
+  year={2012}
+}
+
+% Cao等人分析了Facebook RocksDB工作负载，揭示了存储系统在实际生产环境下的特性
+@inproceedings{cao2020rocksdb,
+  title={Characterizing, Modeling, and Benchmarking RocksDB Key-Value Workloads at Facebook},
+  author={Cao, Zhengping and Dong, Shujie and Vemuri, Sravan and Du, David H. C.},
+  booktitle={Proceedings of the USENIX Conference on File and Storage Technologies},
+  year={2020}
+}
+
+% 系统评估方法
+% RFC 2647描述了网络互联设备的基准测试方法，是数据中心系统评估的重要参考文档
+@online{rfc2647,
+  title={Benchmarking Methodology for Networking Interconnect Devices},
+  url={http://www.rfc-editor.org/rfc/rfc2647.txt},
+  year={2023}
+}

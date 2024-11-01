@@ -1,0 +1,55 @@
+% FaaS基础研究
+% Li等人综述了无服务器计算技术的发展，为FaaS的设计架构提供了系统性指南
+@article{li2022serverless,
+  title={The serverless computing survey: A technical primer for design architecture},
+  author={Li, Zijun and Guo, Linsong and Cheng, Jiagan and Chen, Quan and He, BingSheng and Guo, Minyi},
+  journal={ACM Computing Surveys (CSUR)},
+  volume={54},
+  number={10s},
+  year={2020}
+}
+
+% Jonas等人的研究介绍了简化云编程的无服务器计算平台，为FaaS提供了理论基础
+@article{jonas2019cloud,
+  title={Cloud programming simplified: A berkeley view on serverless computing},
+  author={Jonas, Eric and Schleier-Smith, Johann and Sreekanti, Vikram and Tsai, Chia-Che and Khandelwal, Anurag and Pu, Qifan and Shankar, Vaishaal and Carreira, Joao and Krauth, Karl and Yadwadkar, Neeraja and others},
+  journal={arXiv preprint arXiv:1902.03383},
+  year={2019}
+}
+
+% 系统优化
+% Agache等人提出了Firecracker的轻量化虚拟化技术，为无服务器计算提供了高性能解决方案
+@inproceedings{agache2020firecracker,
+  title={Firecracker: Lightweight virtualization for serverless applications},
+  author={Agache, Alexandru and Brooker, Marc and Iordache, Alexandra and Liguori, Anthony and Neugebauer, Rolf and Piwonka, Phil and Popa, Diana-Maria},
+  booktitle={Proceedings of NSDI},
+  year={2020},
+  pages={419--434}
+}
+
+% Shahrad等人通过分析大型云提供商的实际工作负载，展示了无服务器计算在实际应用中的优化挑战
+@inproceedings{shahrad2020serverless,
+  title={Serverless in the wild: Characterizing and optimizing the serverless workload at a large cloud provider},
+  author={Shahrad, Mohammad and Fonseca, Rodrigo and Goiri, Inigo and Chaudhry, Gohar and Batum, Paul and Cooke, Jason and Laureano, Eduardo and Tresness, Colby and Russinovich, Mark and Bianchini, Ricardo},
+  booktitle={Proceedings of the USENIX Annual Technical Conference},
+  year={2020}
+}
+
+% Meta内部系统
+% Bronson等人提出的TAO系统是Meta的分布式数据存储，为社交图数据库提供高效存储和查询支持
+@inproceedings{bronson2013tao,
+  title={TAO: Facebook's Distributed Data Store for the Social Graph},
+  author={Bronson, Nathan and Amsden, Zach and Cabrera, George and Chakka, Prasad and Dimov, Peter and Ding, Hui and Ferris, Jack and Giardullo, Anthony and Kulkarni, Sachin and Li, Harry and Marchukov, Mark and Petrov, Dmitri and Puzar, Lovro and Song, Yee Jiun and Venkataramani, Venkat},
+  booktitle={Proceedings of the 2013 USENIX Annual Technical Conference},
+  year={2013},
+  pages={49--60}
+}
+
+% Chen等人描述了Meta的实时数据处理平台，支持大规模的实时数据流处理
+@inproceedings{chen2016realtime,
+  title={Realtime Data Processing at Facebook},
+  author={Chen, Guoqiang Jerry and Wiener, Janet L and Iyer, Shridhar and Jaiswal, Anshul and Lei, Ran and Simha, Nikhil and Wang, Wei and Wilfong, Kevin and Williamson, Tim and Yilmaz, Serhat},
+  booktitle={Proceedings of the 2016 International Conference on Management of Data},
+  year={2016},
+  pages={1087--1098}
+}
