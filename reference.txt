@@ -1,0 +1,104 @@
+[1] Alexandru Agache, Marc Brooker, Alexandra Iordache, Anthony
+Liguori, Rolf Neugebauer, Phil Piwonka, and Diana-Maria Popa. Fire-
+cracker: Lightweight virtualization for serverless applications. In NSDI,
+volume 20, pages 419–434, 2020.
+[2] Istemi Ekin Akkus, Ruichuan Chen, Ivica Rimac, Manuel Stein, Klaus
+Satzke, Andre Beck, Paarijaat Aditya, and Volker Hilt. SAND: Towards high-performance serverless computing. In 2018 USENIX Annual Tech-
+nical Conference, pages 923–935, 2018.
+[3] Apache OpenWhisk. Accessed on April 4, 2023.
+[4] AWS Lambda. Accessed on April 4, 2023.
+[5] Azure Functions. Accessed on April 4, 2023.
+[6] Jeff Barr. New - accelerate your lambda functions with lambda snap-start, 2022. Accessed on April 4, 2023.
+[7] David Elliott Bell. Looking back at the bell-la padula model. In 21st Annual Computer Security Applications Conference (ACSAC’05), pages 15–pp. IEEE, 2005.
+[8] Sol Boucher, Anuj Kalia, David G Andersen, and Michael Kaminsky.
+Putting the ”micro” back in microservice. In 2018 USENIX Annual
+Technical Conference, pages 645–650, 2018.
+[9] Nathan Bronson, Zach Amsden, George Cabrera, Prasad Chakka, Peter
+Dimov, Hui Ding, Jack Ferris, Anthony Giardullo, Sachin Kulkarni,
+Harry Li, Mark Marchukov, Dmitri Petrov, Lovro Puzar, Yee Jiun Song,
+and Venkat Venkataramani. TAO: Facebook’s Distributed Data Store for the Social Graph. In Proceedings of the 2013 USENIX Annual Tech-nical Conference, pages 49–60, 2013.
+[10] Marc Brooker, Mike Danilov, Chris Greenwood, and Phil Piwonka. On-demand Container Loading in AWS Lambda. In 2023 USENIX Annual Technical Conference, pages 315–328, 2023.
+[11] James Cadden, Thomas Unger, Yara Awad, Han Dong, Orran Krieger,
+and Jonathan Appavoo. Seuss: skip redundant paths to make serverless
+fast. In Proceedings of the Fifteenth European Conference on Computer Systems, pages 1–15, 2020.
+[12] Guoqiang Jerry Chen, Janet L Wiener, Shridhar Iyer, Anshul Jaiswal,
+Ran Lei, Nikhil Simha, Wei Wang, Kevin Wilfong, Tim Williamson, and
+Serhat Yilmaz. Realtime Data Processing at Facebook. In Proceedings
+of the 2016 International Conference on Management of Data, pages
+1087–1098, 2016.
+[13] Simon Eismann, Joel Scheuner, Erwin Van Eyk, Maximilian Schwinger,
+Johannes Grohmann, Nikolas Herbst, Cristina L Abad, and Alexandru
+Iosup. Serverless applications: Why, when, and how? IEEE Software, 38(1):32–39, 2020.
+[14] Marius Eriksen, Kaushik Veeraraghavan, Yusuf Abdulghani, Andrew
+Birchall, Po-Yen Chou, Richard Cornew, Adela Kabiljo, Ranjith Kumar S, Maroo Lieuw, Justin Meza, Scott Michelson, Thomas Rohloff, Hayley
+Russell, Jeff Qin, and Chunqiang Tang. Global Capacity Management with Flux. In Proceedings of the 17th USENIX Symposium on Operating
+Systems Design and Implementation, 2023.
+[15] Jason Flinn, Xianzheng Dou, Arushi Aggarwal, Alex Boyko, Francois
+Richard, Eric Sun, Wendy Tobagus, Nick Wolchko, and Fang Zhou.
+Owl: Scale and flexibility in distribution of hot content. In 16th USENIX
+Symposium on Operating Systems Design and Implementation (OSDI
+22), pages 1–15, 2022.
+[16] Alim Ul Gias and Giuliano Casale. Cocoa: Cold start aware capacity
+planning for function-as-a-service platforms. In 2020 28th International
+Symposium on Modeling, Analysis, and Simulation of Computer and
+Telecommunication Systems (MASCOTS), pages 1–8. IEEE, 2020. [17] Google Cloud Functions. Accessed on April 4, 2023. [18] Boris Grubic, Yang Wang, Tyler Petrochko, Ran Yaniv, Brad Jones,
+David Callies, Matt Clarke-Lauer, Dan Kelley, Soteris Demetriou,
+Kenny Yu, and Chunqiang Tang. Conveyor: One-Tool-Fits-All Contin-uous Software Deployment at Meta. In Proceedings of the 17th USENIX
+Symposium on Operating Systems Design and Implementation, 2023.
+[19] Katia Gil Guzman. How to Use Azure Queue-Triggered Functions and Why, December 2020. https://medium.com/swlh/how-to-use-azure-queue-triggered-functions-and-why-7f651c9d3f8c. [20] Hassan B Hassan, Saman A Barakat, and Qusay I Sarhan. Survey on serverless computing. Journal of Cloud Computing, 10(1):1–29, 2021. [21] Joseph M Hellerstein, Jose Faleiro, Joseph E Gonzalez, Johann Schleier-
+Smith, Vikram Sreekanti, Alexey Tumanov, and Chenggang Wu.
+Serverless computing: One step forward, two steps back. arXiv preprint
+arXiv:1812.03651, 2018. [22] Scott Hendrickson, Stephen Sturdevant, Tyler Harter, Venkateshwaran
+Venkataramani, Andrea C Arpaci-Dusseau, and Remzi H Arpaci-
+Dusseau. Serverless Computation with OpenLambda. In 8th USENIX workshop on hot topics in cloud computing (HotCloud 16), 2016. [23] HHVM. https://hhvm.com. [24] Hive. https://hive.apache.org. [25] Zhipeng Jia and Emmett Witchel. Boki: Stateful serverless computing with shared logs. In Proceedings of the ACM SIGOPS 28th Symposium on Operating Systems Principles, pages 691–707, 2021. [26] Eric Jonas, Johann Schleier-Smith, Vikram Sreekanti, Chia-Che Tsai, Anurag Khandelwal, Qifan Pu, Vaishaal Shankar, Joao Carreira, Karl Krauth, Neeraja Yadwadkar, et al. Cloud programming simplified: A
+berkeley view on serverless computing. arXiv preprint arXiv:1902.03383,
+2019. [27] Kostis Kaffes, Neeraja J Yadwadkar, and Christos Kozyrakis. Central-
+      ized core-granular scheduling for serverless functions. In Proceedings
+      of the ACM symposium on cloud computing, pages 158–164, 2019. [28] Kostis Kaffes, Neeraja J Yadwadkar, and Christos Kozyrakis. Practi-
+      cal scheduling for real-world serverless computing. arXiv preprint
+      arXiv:2111.07226, 2021. [29] Zijun Li, Linsong Guo, Jiagan Cheng, Quan Chen, BingSheng He, and Minyi Guo. The serverless computing survey: A technical primer for
+      design architecture. ACM Computing Surveys (CSUR), 54(10s):1–34,
+2020. [30] Ashraf Mahgoub, Edgardo Barsallo Yi, Karthick Shankar, Sameh El-
+      nikety, Somali Chaterji, and Saurabh Bagchi. ORION and the three
+      rights: Sizing, bundling, and prewarming for serverless DAGs. In 16th
+      USENIX Symposium on Operating Systems Design and Implementation (OSDI 22), pages 303–320, 2022. [31] Anupama Mampage, Shanika Karunasekera, and Rajkumar Buyya.
+      A holistic view on resource management in serverless computing environments: Taxonomy and future directions. ACM Computing
+      Surveys (CSUR), 54(11s):1–36, 2022. [32] Michael Mitzenmacher. The power of two choices in randomized load balancing. IEEE Transactions on Parallel and Distributed Systems, 12(10):1094–1104, 2001. [33] Anup Mohan, Harshad S Sane, Kshitij Doshi, Saikrishna Edupuganti, Naren Nayak, and Vadim Sukhomlinov. Agile cold starts for scalable serverless. HotCloud, 2019(10.5555):3357034–3357060, 2019. [34] Edward Oakes, Leon Yang, Kevin Houck, Tyler Harter, Andrea C
+      Arpaci-Dusseau, and Remzi H Arpaci-Dusseau. Pipsqueak: Lean lamb-
+      das with large libraries. In 2017 IEEE 37th International Conference on Distributed Computing Systems Workshops (ICDCSW), pages 395–400. IEEE, 2017. [35] Edward Oakes, Leon Yang, Dennis Zhou, Kevin Houck, Tyler Harter,
+      Andrea Arpaci-Dusseau, and Remzi Arpaci-Dusseau. SOCK: Rapid task
+      provisioning with serverless-optimized containers. In 2018 USENIX
+      Annual Technical Conference, pages 57–70, 2018. [36] Guilherme Ottoni. HHVM JIT: A Profile-guided, Region-based Com-
+      piler for PHP and Hack. In Proceedings of the 39th ACM SIGPLAN Con-
+      ference on Programming Language Design and Implementation, pages 151–165, 2018. [37] Guilherme Ottoni and Bin Liu. HHVM jump-start: Boosting both
+      warmup and steady-state performance at scale. In 2021 IEEE/ACM
+      International Symposium on Code Generation and Optimization (CGO),
+2021. pages 340–350. IEEE, 2021.
+      [38] Rohan Basu Roy, Tirthak Patel, and Devesh Tiwari. Icebreaker: Warm-
+      ing serverless functions better with heterogeneity. In Proceedings of the 27th ACM International Conference on Architectural Support for
+      Programming Languages and Operating Systems, pages 753–767, 2022. [39] Mohammad Shahrad, Rodrigo Fonseca, Inigo Goiri, Gohar Chaudhry,
+      Paul Batum, Jason Cooke, Eduardo Laureano, Colby Tresness, Mark
+      Russinovich, and Ricardo Bianchini. Serverless in the wild: Character-izing and optimizing the serverless workload at a large cloud provider.
+      In USENIX Annual Technical Conference, 2020.
+      [40] Chunqiang Tang, Thawan Kooburat, Pradeep Venkatachalam, Akshay
+      Chander, Zhe Wen, Aravind Narayanan, Patrick Dowell, and Robert
+      Karl. Holistic Configuration Management at Facebook. In Proceedings of the 25th Symposium on Operating Systems Principles, pages 328–343,
+      2015.
+      [41] Ali Tariq, Austin Pahl, Sharat Nimmagadda, Eric Rozner, and Siddharth Lanka. Sequoia: Enabling quality-of-service in serverless computing.
+      In Proceedings of the 11th ACM Symposium on Cloud Computing, pages
+      311–327, 2020.
+      [42] Ashish Thusoo, Zheng Shao, Suresh Anthony, Dhruba Borthakur, Na-mit Jain, Joydeep Sen Sarma, Raghotham Murthy, and Hao Liu. Data warehousing and analytics infrastructure at facebook. In Proceedings of the 2010 ACM SIGMOD International Conference on Management of data, pages 1013–1020, 2010.
+      [43] Ao Wang, Shuai Chang, Huangshi Tian, Hongqi Wang, Haoran Yang,
+      Huiba Li, Rui Du, and Yue Cheng. FaaSNet: Scalable and Fast Provi-sioning of Custom Serverless Container Runtimes at Alibaba Cloud
+      Function Compute. In USENIX Annual Technical Conference, 2021. [44] Kai-Ting Amy Wang, Rayson Ho, and Peng Wu. Replayable execution
+      optimized for page sharing for a managed runtime environment. In Proceedings of the Fourteenth EuroSys Conference 2019, pages 1–16,
+      2019. [45] Liang Wang, Mengyuan Li, Yinqian Zhang, Thomas Ristenpart, and
+      Michael Swift. Peeking behind the curtains of serverless platforms. In
+      2018 USENIX Annual Technical Conference, pages 133–146, 2018. [46] Ethan G Young, Pengfei Zhu, Tyler Caraza-Harter, Andrea C Arpaci-
+      Dusseau, and Remzi H Arpaci-Dusseau. The true cost of containing:
+      A gvisor case study. In HotCloud, 2019. [47] Tianyi Yu, Qingyuan Liu, Dong Du, Yubin Xia, Binyu Zang, Ziqian Lu, Pingchao Yang, Chenggang Qin, and Haibo Chen. Characterizing
+      serverless platforms with serverlessbench. In Proceedings of the 11th ACM Symposium on Cloud Computing, pages 30–44, 2020. [48] Haoran Zhang, Adney Cardoza, Peter Baile Chen, Sebastian Angel,
+      and Vincent Liu. Fault-tolerant and transactional stateful serverless workflows. In 14th USENIX Symposium on Operating Systems Design and Implementation (OSDI 20), pages 1187–1204, 2020.
+      [49] Yanqi Zhang, ´Inigo Goiri, Gohar Irfan Chaudhry, Rodrigo Fonseca,˜ Sameh Elnikety, Christina Delimitrou, and Ricardo Bianchini. Faster
+      and cheaper serverless computing on harvested resources. In Pro-ceedings of the ACM SIGOPS 28th Symposium on Operating Systems
+      Principles, pages 724–739, 2021.

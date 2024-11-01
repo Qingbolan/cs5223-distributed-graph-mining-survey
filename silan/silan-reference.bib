@@ -1,0 +1,244 @@
+% silan-reference.bib
+
+@article{dean2008mapreduce,
+  title={MapReduce: Simplified Data Processing on Large Clusters},
+  author={Dean, Jeffrey and Ghemawat, Sanjay},
+  journal={Communications of the ACM},
+  volume={51},
+  number={1},
+  pages={107--113},
+  year={2008}
+}
+
+@inproceedings{iyer2023achieving,
+  title={Achieving Microsecond-Scale Tail Latency Efficiently with Approximate Optimal Scheduling},
+  author={Iyer, Rishabh and Unal, Musa and Kogias, Marios and Candea, George},
+  booktitle={Proceedings of the 29th Symposium on Operating Systems Principles},
+  pages={1--16},
+  year={2023}
+}
+
+@inproceedings{sahraei2023xfaas,
+  title={XFaaS: Hyperscale and Low Cost Serverless Functions at Meta},
+  author={Sahraei, Alireza and Demetriou, Soteris and Sobhgol, Amirali and Zhang, Haoran and others},
+  booktitle={Proceedings of the 29th Symposium on Operating Systems Principles},
+  pages={1--16},
+  year={2023}
+}
+
+@inproceedings{zhang2012optimizing,
+  title={Optimizing Data Shuffling in Data-Parallel Computation by Understanding User-Defined Functions},
+  author={Zhang, Jiaxing and Zhou, Hucheng and Chen, Rishan and Fan, Xuepeng and Guo, Zhenyu and Lin, Haoxiang and Li, Jack Y. and Lin, Wei and Zhou, Jingren and Zhou, Lidong},
+  booktitle={9th USENIX Symposium on Networked Systems Design and Implementation (NSDI)},
+  pages={295--308},
+  year={2012}
+}
+
+@inproceedings{teixeira2015arabesque,
+  title={Arabesque: A System for Distributed Graph Mining},
+  author={Teixeira, Carlos H. C. and Fonseca, Alexandre J. and Serafini, Marco and Siganos, Georgos and Zaki, Mohammed J. and Aboulnaga, Ashraf},
+  booktitle={Proceedings of the 25th Symposium on Operating Systems Principles},
+  pages={425--440},
+  year={2015}
+}
+
+% silan-reference.bib
+
+% Core papers we analyzed
+
+% Important references from these core papers
+@article{dean2013tail,
+  title={The Tail at Scale},
+  author={Dean, Jeffrey and Barroso, Luiz Andre},
+  journal={Communications of the ACM},
+  volume={56},
+  number={2},
+  pages={74--80},
+  year={2013}
+}
+
+@inproceedings{malewicz2010pregel,
+  title={Pregel: A System for Large-Scale Graph Processing},
+  author={Malewicz, Grzegorz and Austern, Matthew H and Bik, Aart JC and Dehnert, James C and Horn, Ilan and Leiser, Naty and Czajkowski, Grzegorz},
+  booktitle={Proceedings of the 2010 ACM SIGMOD International Conference on Management of Data},
+  pages={135--146},
+  year={2010}
+}
+
+@article{barroso2017attack,
+  title={Attack of the Killer Microseconds},
+  author={Barroso, Luiz Andre and Marty, Michael and Patterson, David and Ranganathan, Parthasarathy},
+  journal={Communications of the ACM},
+  volume={60},
+  number={4},
+  pages={48--54},
+  year={2017}
+}
+
+@inproceedings{bronson2013tao,
+  title={TAO: Facebook's Distributed Data Store for the Social Graph},
+  author={ Bronson, Nathan and Amsden, Zach and Cabrera-Holmquist, George and Chakka, Prasad and Dimov, Peter and Ding, Hui and Ferris, Jack and Giardullo, Anthony and Kulkarni, Sachin and Li, Harry and others},
+  booktitle={USENIX Annual Technical Conference},
+  pages={49--60},
+  year={2013}
+}
+
+@inproceedings{gan2019open,
+  title={An Open-Source Benchmark Suite for Microservices and Their Hardware-Software Implications for Cloud \& Edge Systems},
+  author={Gan, Yu and Zhang, Yanqi and Cheng, Dailun and Shetty, Ankitha and Rathi, Priyal and Katarki, Nayan and Bruno, Ariana and Hu, Justin and Ritchken, Brian and Jackson, Brendon and others},
+  booktitle={Proceedings of the Twenty-Fourth International Conference on Architectural Support for Programming Languages and Operating Systems},
+  pages={3--18},
+  year={2019}
+}
+
+
+% FaaS基础研究
+% Li等人综述了无服务器计算技术的发展，为FaaS的设计架构提供了系统性指南
+@article{li2022serverless,
+  title={The serverless computing survey: A technical primer for design architecture},
+  author={Li, Zijun and Guo, Linsong and Cheng, Jiagan and Chen, Quan and He, BingSheng and Guo, Minyi},
+  journal={ACM Computing Surveys (CSUR)},
+  volume={54},
+  number={10s},
+  year={2020}
+}
+
+% Jonas等人的研究介绍了简化云编程的无服务器计算平台，为FaaS提供了理论基础
+@article{jonas2019cloud,
+  title={Cloud programming simplified: A berkeley view on serverless computing},
+  author={Jonas, Eric and Schleier-Smith, Johann and Sreekanti, Vikram and Tsai, Chia-Che and Khandelwal, Anurag and Pu, Qifan and Shankar, Vaishaal and Carreira, Joao and Krauth, Karl and Yadwadkar, Neeraja and others},
+  journal={arXiv preprint arXiv:1902.03383},
+  year={2019}
+}
+
+% 系统优化
+% Agache等人提出了Firecracker的轻量化虚拟化技术，为无服务器计算提供了高性能解决方案
+@inproceedings{agache2020firecracker,
+  title={Firecracker: Lightweight virtualization for serverless applications},
+  author={Agache, Alexandru and Brooker, Marc and Iordache, Alexandra and Liguori, Anthony and Neugebauer, Rolf and Piwonka, Phil and Popa, Diana-Maria},
+  booktitle={Proceedings of NSDI},
+  year={2020},
+  pages={419--434}
+}
+
+% Shahrad等人通过分析大型云提供商的实际工作负载，展示了无服务器计算在实际应用中的优化挑战
+@inproceedings{shahrad2020serverless,
+  title={Serverless in the wild: Characterizing and optimizing the serverless workload at a large cloud provider},
+  author={Shahrad, Mohammad and Fonseca, Rodrigo and Goiri, Inigo and Chaudhry, Gohar and Batum, Paul and Cooke, Jason and Laureano, Eduardo and Tresness, Colby and Russinovich, Mark and Bianchini, Ricardo},
+  booktitle={Proceedings of the USENIX Annual Technical Conference},
+  year={2020}
+}
+
+
+% Chen等人描述了Meta的实时数据处理平台，支持大规模的实时数据流处理
+@inproceedings{chen2016realtime,
+  title={Realtime Data Processing at Facebook},
+  author={Chen, Guoqiang Jerry and Wiener, Janet L and Iyer, Shridhar and Jaiswal, Anshul and Lei, Ran and Simha, Nikhil and Wang, Wei and Wilfong, Kevin and Williamson, Tim and Yilmaz, Serhat},
+  booktitle={Proceedings of the 2016 International Conference on Management of Data},
+  year={2016},
+  pages={1087--1098}
+}
+
+% 高级编程语言与编译
+% Olston等人提出的Pig Latin是一种简化数据处理的语言，提升了大规模数据集上的数据分析效率
+@inproceedings{olston2008pig,
+  title={Pig Latin: a not-so-foreign language for data processing},
+  author={Olston, Christopher and Reed, Benjamin and Srivastava, Utkarsh and Kumar, Ravi and Tomkins, Andrew},
+  booktitle={Proceedings of SIGMOD},
+  year={2008}
+}
+
+% 图挖掘算法
+% Yan和Han提出的gSpan算法是一种基于图结构的频繁模式挖掘方法，广泛应用于单图频繁子图挖掘
+%inproceedings{yan2002gspan,
+%  title={gSpan: Graph-based substructure pattern mining},
+%  author={Yan, Xifeng and Han, Jiawei},
+%  booktitle={Proceedings of the IEEE International Conference on Data Mining},
+%  year={2002}
+% }
+
+% Isard等人提出的Dryad系统为分布式数据并行编程提供了新模式，进一步推动了数据流计算的应用
+@inproceedings{isard2007dryad,
+  title={Dryad: distributed data-parallel programs from sequential building blocks},
+  author={Isard, Michael and Budiu, Mihai and Yu, Yuan and Birrell, Andrew and Fetterly, Dennis},
+  booktitle={Proceedings of EuroSys},
+  year={2007}
+}
+
+% Murray等人提出的CIEL系统是一个通用的分布式数据流执行引擎，支持动态生成任务图
+@inproceedings{murray2011ciel,
+  title={CIEL: a universal execution engine for distributed data-flow computing},
+  author={Murray, Derek G. and Schwarzkopf, Malte and Smowton, Chris and Smith, Steven and Madhavapeddy, Anil and Hand, Steven},
+  booktitle={Proceedings of NSDI},
+  year={2011}
+}
+
+% 工作负载分析
+% Atikoglu等人对大规模键值存储的工作负载分析为后续系统性能优化提供了数据支持
+@inproceedings{atikoglu2012workload,
+  title={Workload Analysis of a Large-Scale Key-Value Store},
+  author={Atikoglu, Berk and Xu, Yue and Frachtenberg, Eitan and Jiang, Song and Paleczny, Mike},
+  booktitle={Proceedings of the ACM SIGMETRICS Conference},
+  year={2012}
+}
+
+% 调度系统
+% Kaffes等人提出的Shinjuku调度器，为微秒级尾部延迟优化提供了一种预抢调度策略
+@inproceedings{kaffes2019shinjuku,
+  title={Shinjuku: Preemptive Scheduling for μsecond-scale Tail Latency},
+  author={Kaffes, Kyriakos and Chong, Thibaut and Humphries, James T. and Belay, Abhishek and Mazières, David and Kozyrakis, Christos},
+  booktitle={Proceedings of the Symposium on Networked Systems Design and Implementation},
+  year={2019}
+}
+
+% Netflix的微服务架构经验总结，展示了如何实现高可扩展性和灵活性的架构设计
+@online{netflix_microservices,
+  title={Adopting Microservices at Netflix: Lessons for Architectural Design},
+  author={Mauro, T.},
+  year={2015},
+  url={https://www.nginx.com/blog/microservices-at-netflix-architectural-best-practices}
+}
+
+% Gonzalez等人的PowerGraph提出了适合自然图的分布式图计算框架，进一步优化了Pregel架构
+@inproceedings{gonzalez2012powergraph,
+  title={PowerGraph: Distributed graph-parallel computation on natural graphs},
+  author={Gonzalez, Joseph E. and Low, Yucheng and Gu, Haijie and Bickson, Danny and Guestrin, Carlos},
+  booktitle={Proceedings of the USENIX Symposium on Operating Systems Design and Implementation},
+  year={2012}
+}
+
+% 系统实现与评估
+% McSherry等人提出了系统性能评估中的成本和可扩展性分析方法，为分布式系统评估提供了重要参考
+@inproceedings{mcsherry2015scalability,
+  title={Scalability! but at what cost?},
+  author={McSherry, Frank and Isard, Michael and Murray, Derek G.},
+  booktitle={Proceedings of the USENIX Workshop on Hot Topics in Operating Systems},
+  year={2015}
+}
+
+% Cao等人分析了Facebook RocksDB工作负载，揭示了存储系统在实际生产环境下的特性
+@inproceedings{cao2020rocksdb,
+  title={Characterizing, Modeling, and Benchmarking RocksDB Key-Value Workloads at Facebook},
+  author={Cao, Zhengping and Dong, Shujie and Vemuri, Sravan and Du, David H. C.},
+  booktitle={Proceedings of the USENIX Conference on File and Storage Technologies},
+  year={2020}
+}
+
+% UDF分析与优化
+% Jahani等人提出了一种MapReduce程序的自动优化方法，为数据平行处理中的UDF分析提供了新方法
+@article{jahani2011optimization,
+  title={Automatic optimization for MapReduce programs},
+  author={Jahani, Elaheh and Cafarella, Michael J. and Ré, Christopher},
+  journal={Proceedings of VLDB},
+  volume={4},
+  number={6},
+  year={2011}
+}
+
+% Elseidy等人提出的Grami算法在单一大图中进行频繁子图和模式挖掘，适用于大规模图数据分析
+@inproceedings{elseidy2014grami,
+  title={Grami: Frequent subgraph and pattern mining in a single large graph},
+  author={Elseidy, Mina and Abdelhamid, Ehab and Skiadopoulos, Spiros and Kalnis, Panos},
+  booktitle={Proceedings of the VLDB Endowment},
+  year={2014}
+}
